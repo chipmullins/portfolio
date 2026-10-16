@@ -1,0 +1,257 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+
+}
+
+body {
+    background-color: #141217;
+    font-family: 'Space Grotesk', sans-serif; 
+}
+
+.main-nav {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    max-width: 1120px;
+    margin: 0 auto;
+    justify-content: space-between; 
+    flex-wrap: wrap;
+    gap: 16px;
+    color: white;
+    padding: 24px;
+}
+
+.nav-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.nav-buttons a {
+    text-decoration: none;
+    padding: 10px 14px;
+    border-radius: 8px;
+    color: white;
+    padding: 10px 14px;
+
+}
+
+.nav-buttons a:hover {
+    color: rgb(167, 139, 250);
+}
+
+.hero {
+    display: flex;
+    max-width: 1120px;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    color: white;
+    flex-direction: row;
+    margin: 0 auto;
+}
+.hero-left {
+    display: flex;
+    flex: 2;
+    flex-direction: column;
+}
+
+.hero-right {
+    display: flex;
+    flex: 1;
+    
+}
+
+
+
+.hero h1 {
+    font-size: 68px;
+}
+#sub-header {
+    color: rgb(167, 139, 250);
+    font-size: 68px;
+}
+.sub-hero-row {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    max-width: 1120px;
+    padding: 0px 24px 80px;
+    
+
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    background:rgb(28, 25, 34);
+    border: 1px solid rgb(44, 39, 53);
+    border-radius: 16px;
+    color: white;
+    padding: 30px;
+    
+
+}
+.card ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    gap: 8px;
+}
+
+.card li {
+    border-radius: 6px;
+    padding: 6px 10px;
+    background: rgb(42, 36, 51);
+    
+}
+
+.seperate-section {
+    margin: 0 auto;
+    display: flex;
+    color: white;
+    max-width: 1120px;
+    gap: 28px;
+    flex-direction: column;
+    padding: 0px 24px 96px;
+}
+.main-project-row {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid rgb(44,39,53);
+    border-radius: 20px;
+    gap: 16px;
+    justify-content: center;
+
+}
+.main-column {
+    display: flex;
+    flex: 2;
+    justify-content: center;
+    align-items: center;
+    
+}
+.main-column img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+.side-column {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: center;
+    gap: 16px;
+}
+
+.side-column a {
+    color: rgb(167, 139, 250);
+    
+}
+.side-column h5 {
+    color: rgb(167, 139, 250);
+}
+
+.even-column {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border: 1px solid rgb(44,39,53);
+    border-radius: 20px;
+    gap: 10px;
+    padding: 10px;
+}
+
+.content-row {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    flex-wrap: wrap;
+    
+}
+.alt-even-column {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    flex-direction: column;
+    color: rgb(167, 139, 250);
+    font-size: 100px;
+    padding: 10px;
+    text-align: center;
+    
+}
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex: 1;
+    
+}
+.contact-form button {
+    background-color: rgb(167, 139, 250);
+    border-radius: 10px;
+    
+    height: 50px;
+}
+.contact-form a {
+    color: rgb(167, 139, 250);
+}
+
+.text-field {
+    
+    height: 25px;
+}
+
+.message-field {
+    
+    height: 200px;
+}
+.even-column a {
+    color: rgb(167, 139, 250);
+}
+
+#footer-section {
+    display: flex;
+    flex-direction: row;
+    max-width: 1120px;
+    justify-content: center;
+    margin: 0 auto;
+    border-top: 1px solid rgb(44, 39, 53);
+    height: 100px;
+    align-items: center;
+}
+
+.footer-left {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 10px;
+    
+
+}
+
+.footer-left h2 {
+    color: white;
+}
+.footer-left h4 {
+    color: rgb(167, 139, 250);
+}
+.footer-right {
+    color: white;
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+    gap: 20px;
+    
+}
+.footer-right a {
+    color: rgb(167, 139, 250);
+}
